@@ -1,4 +1,4 @@
-# engine_versions
+# Algorithmic Trading Research & Optimization Engine
 
 A systematic analysis of five iterative trading engine versions, benchmarking performance improvements from a baseline model through increasingly selective risk and entry filters. The goal: find the optimal balance between trade quality and frequency.
 
@@ -46,7 +46,7 @@ Pushes selectivity further, but over-filters — win rate regresses despite the 
 
 ## Analysis Notebook
 
-`v1_v5_engine_result_analysis.ipynb` runs a full comparative study across all five versions, including:
+`Algorithmic_Trading_Research_&_Optimization_Engine.ipynb` runs a full comparative study across all five versions, including:
 
 - **Executive Summary** — side-by-side metrics table (win rate, total PnL, expectancy, W/L ratio, max drawdown, consecutive loss streaks, organic PnL %)
 - **Equity Curves** — cumulative PnL overlay with drawdown panel, across all versions from 2018–2026
