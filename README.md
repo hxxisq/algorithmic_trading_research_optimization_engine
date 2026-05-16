@@ -51,7 +51,7 @@ Pushes selectivity further, but over-filters — win rate regresses despite the 
 - **Executive Summary** — side-by-side metrics table (win rate, total PnL, expectancy, W/L ratio, max drawdown, consecutive loss streaks, organic PnL %)
 - **Equity Curves** — cumulative PnL overlay with drawdown panel, across all versions from 2018–2026
 - **Annual Performance Breakdown** — year-by-year PnL bars and win rate lines per version
-- **Monte Carlo Simulation** — 1,000+ simulations projecting median equity paths, 5th/95th percentile bands, final PnL distributions, and max drawdown distributions
+- **Monte Carlo Simulation** — 10,000 simulations projecting median equity paths, 5th/95th percentile bands, final PnL distributions, and max drawdown distributions
 - **Optimisation Radar** — spider chart normalising six key metrics across all versions
 - **Optimisation Curve** — expectancy and drawdown trajectories from v1 to v5, with v4 marked as the sweet spot
 
@@ -59,7 +59,7 @@ Pushes selectivity further, but over-filters — win rate regresses despite the 
 
 ## Key Findings
 
-- **v4 is the optimal engine** — highest expectancy per trade, lowest max drawdown, fewest consecutive losses
+- **v4 is the optimal engine** — expected value per trade improved 235% (+27.5 → +92.0 pts) with a 75% reduction in max drawdown (-1,540 → -383 pts)
 - v5 over-filters: adding more selectivity beyond min RR = 4 causes win rate regression without a commensurate gain
 - The progression from v1 to v4 delivers meaningful improvements in expectancy, drawdown, and win rate while reducing total trade count
 
